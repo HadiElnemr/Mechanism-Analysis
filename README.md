@@ -5,3 +5,10 @@ A mechanics of machinery course project where each student was assigned a certai
 
 # Simulation Plots
 ![Matlab plots](https://github.com/HadiElnemr/Mechanism-Analysis/blob/main/M3/Matlab%20Files/Final%20Plots%202.png)
+
+# Graphical Analysis
+![](https://github.com/HadiElnemr/Mechanism-Analysis/blob/main/M3/Graphical-Solution/position_theta.png)
+![](https://github.com/HadiElnemr/Mechanism-Analysis/blob/main/M3/Graphical-Solution/position_theta=0.png)
+![](https://github.com/HadiElnemr/Mechanism-Analysis/blob/main/M3/Graphical-Solution/position_theta=0_2.png)
+![](https://github.com/HadiElnemr/Mechanism-Analysis/blob/main/M3/Graphical-Solution/velocity.png)
+![](https://github.com/HadiElnemr/Mechanism-Analysis/blob/main/M3/Graphical-Solution/acceleration.png)
