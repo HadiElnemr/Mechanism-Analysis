@@ -9,6 +9,6 @@ r6 = output(2);
 
 w=[ - ( r5 * cos(th5) ) + r4  * cos(th4) + r6 * cos(th6);
     
-    - ( r5 * sin(th5) ) + r4 * sin(th4) + r6 * sin(th6);  
+    - ( r5 * sin(th5) ) + r4 * sin(th4) + r6 * sin(th6) 
   ];
 end

@@ -39,19 +39,18 @@ for theta=0:1:360
     end
     thetas(5)=theta5r6(1,i);
     
-    omega34(:,i)=fsolve(@velocity_1,[prev_w3 prev_w4], options, thetas, r, w2);
+    omega34(:,i)=fsolve(@velocity_1,[-7 15], options, thetas, r, w2);
     
     omegas = [0 w2 omega34(:,i)'];
-    prev_w3 = omega34(1,i);
-    prev_w4 = omega34(2,i);
+
     w4=omegas(4);
     omega5r6d(:,i)=fsolve(@velocity_2,[6 200], options, thetas, r, w4);
     omegas(5)=omega5r6d(1,i);
     
     alpha2=0;
-    alpha34(:,i)=fsolve(@acceleration_1,[240 230], options, thetas, r, omegas, alpha2);
-    alpha4=alpha34(1,i);
-    alpha5r6dd(:,i)=fsolve(@acceleration_2,[230 18000], options, thetas, r, omegas, alpha4);
+    alpha34(:,i)=fsolve(@acceleration_1,[240 68], options, thetas, r, omegas, alpha2);
+    alpha4=alpha34(2,i);
+    alpha5r6dd(:,i)=fsolve(@acceleration_2,[20 18100], options, thetas, r, omegas, alpha4);
     
     i=i+1; 
 end 
